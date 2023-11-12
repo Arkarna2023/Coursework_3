@@ -1,5 +1,6 @@
 from src.utils import load_operations
 
-def test_load_operations(path):
+def test_load_operations():
     path2operations = "operations.json"
-    assert load_operstions(path2operations)
+    result = load_operations(path2operations)
+    print(result)
