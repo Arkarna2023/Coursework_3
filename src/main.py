@@ -36,3 +36,4 @@ for operation in sort_operations(executed_operations):
     operation_currency = operation_amount.get('currency')
     print(operation_amount.get('amount'), operation_currency.get('name'))
     print()
+
