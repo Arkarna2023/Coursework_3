@@ -1,5 +1,4 @@
 import json
-import os
 from datetime import datetime
 
 def load_operations(path):
@@ -33,9 +32,6 @@ def sort_operations(executed_operations):
     """
     sorted_operations = sorted(executed_operations, key=lambda op: sorted_by_date(op), reverse=True)
     return sorted_operations[:5]
-
-
-
 
 
 
